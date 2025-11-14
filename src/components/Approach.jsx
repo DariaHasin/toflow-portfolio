@@ -19,10 +19,10 @@ const Approach = () => {
           <h3 className="text-2xl font-bold mb-6 text-center">Methodology Overview</h3>
           <div className="space-y-4 text-gray-300 leading-relaxed max-w-4xl mx-auto">
             <p>
-              TOFlow employs a neural reconstruction approach that combines multiple TOF-MRA acquisitions to produce enhanced outputs. The pipeline processes input scans through registration, preprocessing, and neural field-based reconstruction.
+              TOFlow employs a <strong className="text-white">deep learning-based implicit neural representation (INR)</strong> framework that leverages <strong className="text-white">multi-view geometric constraints</strong> and <strong className="text-white">differentiable rendering</strong> to reconstruct high-fidelity 3D vascular structures from sparse, anisotropic MRI acquisitions. The pipeline integrates <strong className="text-white">rigid registration</strong>, intensity normalization, and <strong className="text-white">coordinate-based neural networks</strong> to learn continuous volumetric representations.
             </p>
             <p>
-              By leveraging complementary information from scans acquired at different orientations, the method can enhance vessel visibility and estimate directional flow patterns that are not directly observable in individual acquisitions.
+              By exploiting <strong className="text-white">orientation-dependent signal characteristics</strong> and applying <strong className="text-white">physics-informed loss functions</strong>, the model performs end-to-end optimization to simultaneously enhance spatial resolution and infer directional flow information—capabilities not achievable through traditional interpolation or single-view reconstruction methods.
             </p>
           </div>
         </div>

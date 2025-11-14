@@ -17,7 +17,6 @@ const Navigation = () => {
     { name: 'Objectives', href: '#objectives' },
     { name: 'Approach', href: '#approach' },
     { name: 'Results', href: '#results' },
-    { name: 'Citations', href: '#citations' },
   ];
 
   return (

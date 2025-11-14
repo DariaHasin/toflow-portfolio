@@ -19,10 +19,10 @@ const Approach = () => {
           <h3 className="text-2xl font-bold mb-6 text-center">Methodology Overview</h3>
           <div className="space-y-4 text-gray-300 leading-relaxed max-w-4xl mx-auto">
             <p>
-              TOFlow employs a <strong className="text-white">deep learning-based implicit neural representation (INR)</strong> framework that leverages <strong className="text-white">multi-view geometric constraints</strong> and <strong className="text-white">differentiable rendering</strong> to reconstruct high-fidelity 3D vascular structures from sparse, anisotropic MRI acquisitions. The pipeline integrates <strong className="text-white">rigid registration</strong>, intensity normalization, and <strong className="text-white">coordinate-based neural networks</strong> to learn continuous volumetric representations.
+              TOFlow uses a <strong className="text-white">deep learning framework</strong> based on <strong className="text-white">implicit neural representations</strong> to reconstruct high-quality 3D vascular structures from multiple MRI scans. The approach combines <strong className="text-white">multi-view fusion</strong> with <strong className="text-white">coordinate-based neural networks</strong> to learn continuous volumetric representations.
             </p>
             <p>
-              By exploiting <strong className="text-white">orientation-dependent signal characteristics</strong> and applying <strong className="text-white">physics-informed loss functions</strong>, the model performs end-to-end optimization to simultaneously enhance spatial resolution and infer directional flow information—capabilities not achievable through traditional interpolation or single-view reconstruction methods.
+              By incorporating <strong className="text-white">physics-informed constraints</strong> during training, the model can simultaneously improve image quality and estimate flow patterns—going beyond what traditional reconstruction methods can achieve.
             </p>
           </div>
         </div>

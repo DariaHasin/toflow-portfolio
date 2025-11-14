@@ -34,7 +34,7 @@ const Approach = () => {
             <h3 className="text-2xl font-bold">Key Innovation</h3>
           </div>
           <p className="text-gray-300 leading-relaxed text-center max-w-2xl mx-auto">
-            The method incorporates novel loss functions that enforce physiological constraints during reconstruction, ensuring that estimated flow patterns are anatomically coherent and follow realistic vascular trajectories.
+            The method incorporates a novel loss function that enforces physiological constraints during reconstruction, ensuring that estimated flow patterns are anatomically coherent and follow realistic vascular trajectories.
           </p>
         </div>
       </div>

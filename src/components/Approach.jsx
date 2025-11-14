@@ -38,14 +38,14 @@ const Approach = () => {
             </div>
             <div className="space-y-4 text-gray-300">
               <p className="leading-relaxed">
-                Combines two 3D TOF scans acquired in the axial plane with a slight angular offset to improve spatial resolution and enhance visualization of small or poorly depicted vessels.
+                Combines multiple 3D TOF acquisitions to improve spatial resolution and enhance visualization of small or poorly depicted vessels through multi-view signal integration.
               </p>
               <div className="glass p-4 rounded-xl">
                 <h4 className="font-semibold mb-2 text-primary-300">Key Features:</h4>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start space-x-2">
                     <span className="text-primary-400 mt-1">•</span>
-                    <span>Multi-view signal integration</span>
+                    <span>Multi-view fusion</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="text-primary-400 mt-1">•</span>
@@ -69,7 +69,7 @@ const Approach = () => {
             </div>
             <div className="space-y-4 text-gray-300">
               <p className="leading-relaxed">
-                Integrates one 3D TOF scan with three orthogonal 2D TOF acquisitions to estimate flow direction and relative velocity at each voxel within the cerebral vasculature.
+                Integrates multiple TOF acquisitions at different orientations to estimate flow direction and relative velocity patterns within the cerebral vasculature.
               </p>
               <div className="glass p-4 rounded-xl">
                 <h4 className="font-semibold mb-2 text-accent-300">Key Features:</h4>

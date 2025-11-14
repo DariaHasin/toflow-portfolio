@@ -6,6 +6,8 @@ const Objectives = () => {
     {
       id: 1,
       icon: Brain,
+      iconColor: "text-primary-400",
+      subtitleColor: "text-primary-400",
       title: "Spatial Resolution & Vessel Depiction",
       subtitle: "Resolution Enhancement",
       description: "Enhance vascular resolution and visibility of small vessels by combining multiple 3D TOF scans acquired at slightly different orientations.",
@@ -18,6 +20,8 @@ const Objectives = () => {
     {
       id: 2,
       icon: Split,
+      iconColor: "text-accent-400",
+      subtitleColor: "text-accent-400",
       title: "Flow Direction & Relative Velocity Estimation",
       subtitle: "Flow Mapping",
       description: "Estimate flow direction and relative velocity patterns by integrating intensity information across multiple orthogonal TOF acquisitions.",
@@ -49,10 +53,10 @@ const Objectives = () => {
             >
               <div className="flex items-center space-x-3 mb-4">
                 <div className="glass rounded-full p-3">
-                  <objective.icon className="w-8 h-8 text-primary-400" />
+                  <objective.icon className={`w-8 h-8 ${objective.iconColor}`} />
                 </div>
                 <div>
-                  <div className="text-sm text-accent-400 font-semibold mb-1">{objective.subtitle}</div>
+                  <div className={`text-sm font-semibold mb-1 ${objective.subtitleColor}`}>{objective.subtitle}</div>
                   <h3 className="text-xl font-bold">{objective.title}</h3>
                 </div>
               </div>

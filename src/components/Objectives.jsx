@@ -11,7 +11,7 @@ const Objectives = () => {
       bulletColor: "bg-primary-400",
       title: "Spatial Resolution &\nVessel Depiction",
       subtitle: "Resolution Enhancement",
-      description: "Enhance vascular resolution and visibility of small vessels by combining multiple 3D TOF scans acquired at slightly different orientations.",
+      description: "Enhance vascular resolution and visibility of small vessels by combining multiple TOF scans acquired at slightly different orientations.",
       features: [
         "Multi-view fusion",
         "Enhanced vessel visualization",

@@ -8,7 +8,8 @@ const Objectives = () => {
       icon: Brain,
       iconColor: "text-primary-400",
       subtitleColor: "text-primary-400",
-      title: "Spatial Resolution & Vessel Depiction",
+      bulletColor: "bg-primary-400",
+      title: "Spatial Resolution &\nVessel Depiction",
       subtitle: "Resolution Enhancement",
       description: "Enhance vascular resolution and visibility of small vessels by combining multiple 3D TOF scans acquired at slightly different orientations.",
       features: [
@@ -22,7 +23,8 @@ const Objectives = () => {
       icon: Split,
       iconColor: "text-accent-400",
       subtitleColor: "text-accent-400",
-      title: "Flow Direction & Relative Velocity Estimation",
+      bulletColor: "bg-accent-400",
+      title: "Flow Direction &\nRelative Velocity Estimation",
       subtitle: "Flow Mapping",
       description: "Estimate flow direction and relative velocity patterns by integrating intensity information across multiple orthogonal TOF acquisitions.",
       features: [
@@ -35,7 +37,7 @@ const Objectives = () => {
 
   return (
     <section id="objectives" className="py-20 relative">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="gradient-text">Research Objectives</span>
@@ -57,7 +59,7 @@ const Objectives = () => {
                 </div>
                 <div>
                   <div className={`text-sm font-semibold mb-1 ${objective.subtitleColor}`}>{objective.subtitle}</div>
-                  <h3 className="text-xl font-bold">{objective.title}</h3>
+                  <h3 className="text-xl font-bold whitespace-pre-line">{objective.title}</h3>
                 </div>
               </div>
               
@@ -68,7 +70,7 @@ const Objectives = () => {
               <div className="space-y-2">
                 {objective.features.map((feature, idx) => (
                   <div key={idx} className="flex items-center space-x-2">
-                    <div className="w-1.5 h-1.5 rounded-full bg-accent-400"></div>
+                    <div className={`w-1.5 h-1.5 rounded-full ${objective.bulletColor}`}></div>
                     <span className="text-sm text-gray-400">{feature}</span>
                   </div>
                 ))}

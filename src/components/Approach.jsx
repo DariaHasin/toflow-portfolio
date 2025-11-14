@@ -22,7 +22,7 @@ const Approach = () => {
               TOFlow uses a <strong className="text-white">deep learning framework</strong> based on <strong className="text-white">implicit neural representations</strong> to reconstruct high-quality 3D vascular structures from multiple MRI scans. The approach combines multi-view fusion with coordinate-based neural networks to learn continuous volumetric representations.
             </p>
             <p>
-              By incorporating physics-informed constraints during training, the model can simultaneously improve image quality and estimate flow patterns. This goes beyond what traditional reconstruction methods can achieve.
+              By incorporating physics-informed constraints during training, the model can either improve image quality or estimate flow patterns, depending on the acquisition protocol. This goes beyond what traditional reconstruction methods can achieve.
             </p>
           </div>
         </div>
